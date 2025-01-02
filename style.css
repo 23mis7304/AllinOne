@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    background-color: hsl(248, 5%, 67%);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1000;
+}
+#Welcome{
+    font-size: 2em;
+    color: white;
+    margin: 80px;
+}
+
+#side-elements {
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+
+#side-elements a {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover{
+    background-color: hsl(248, 5%, 77%);
+}
+
+#Hospital{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px hsl(240, 10%, 10%);
+
+
+    
+}
+#Hospital_name{
+    font-size: large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#Bank{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 600px;
+    border-radius: 5px;
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px hsl(240, 10%, 10%);
+    background-color: white;
+    
+}
+#Bank_name{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+
+}
+
+#INDUSTRY{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 1100px;
+    border-radius: 5px;
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px hsl(240, 10%, 10%);
+    background-color: white;
+    
+}
+#Industry_name{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+
+}
+
+#VEHICLES{
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    border-radius: 5px;
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px hsl(240, 8%, 3%);
+    background-color: white;
+    
+}
+#Vehicles_name{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+
+}
+
+#body_web{
+    /* border: 5px solid rgb(144, 135, 231); */
+    height: 60rem;
+    background-color: hsl(180, 100%, 90%);
+    
+}
